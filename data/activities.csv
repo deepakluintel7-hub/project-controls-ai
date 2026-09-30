@@ -1,0 +1,140 @@
+activity_id,wbs,activity_name,discipline,phase,duration_days,activity_type,budget_pct_of_bac
+MS-0001,1.0 Milestones,Notice to Proceed (NTP),Management,Milestone,0,Milestone,0.0
+PM-0001,1.1 Project Management,Project management & site supervision (LOE),Management,Management,0,LOE,2.8129
+ENG-0001,2.1 Engineering - General,Topographic survey & geotechnical investigation,Civil,Engineering,60,Task,0.2344
+ENG-0002,2.1 Engineering - General,"Basic design, plot plan & heat balance",Process,Engineering,90,Task,0.5626
+ENG-0003,2.1 Engineering - General,Environmental & construction permits,Management,Engineering,180,Task,0.1406
+ENG-0004,2.2 Engineering - Civil,Civil & structural detail design,Civil,Engineering,150,Task,0.7501
+ENG-0005,2.2 Engineering - Civil,Civil IFC drawings - power block foundations,Civil,Engineering,45,Task,0.1875
+ENG-0006,2.3 Engineering - Mechanical,Mechanical & piping detail design,Mechanical,Engineering,210,Task,1.0314
+ENG-0007,2.3 Engineering - Mechanical,Piping isometrics IFC,Mechanical,Engineering,60,Task,0.2813
+ENG-0008,2.4 Engineering - Electrical & I&C,Electrical & I&C detail design,Electrical,Engineering,210,Task,0.8439
+ENG-0009,2.4 Engineering - Electrical & I&C,Cable schedules & I/O list IFC,Electrical,Engineering,60,Task,0.1875
+CON-0001,4.1 Construction - Enabling,Site mobilisation & temporary facilities,Civil,Construction,60,Task,0.4688
+CON-0002,4.1 Construction - Enabling,"Site grading, drainage & roads",Civil,Construction,90,Task,0.8439
+PRC-0901,3.9 Procurement - Switchyard,400 kV GIS - PO award,Electrical,Procurement,30,Task,0.0469
+PRC-0902,3.9 Procurement - Switchyard,400 kV GIS - manufacture & FAT,Electrical,Procurement,300,Task,2.2504
+PRC-0903,3.9 Procurement - Switchyard,400 kV GIS - shipment to site,Electrical,Procurement,45,Task,0.1406
+CON-0901,4.9 Construction - Switchyard,Switchyard civil works & GIS building,Civil,Construction,150,Task,0.8439
+CON-0902,4.9 Construction - Switchyard,GIS erection & HV testing,Electrical,Construction,90,Task,0.5626
+COM-0901,5.9 Commissioning - Switchyard,Switchyard energisation / backfeed power,Electrical,Commissioning,15,Task,0.0938
+PRC-0911,3.9 Procurement - BOP,Fuel gas skid & metering - supply,Mechanical,Procurement,270,Task,0.8439
+CON-0911,4.9 Construction - BOP,Fuel gas station installation & tie-in,Mechanical,Construction,120,Task,0.3751
+COM-0911,5.9 Commissioning - BOP,Fuel gas system purge & gas-in,Mechanical,Commissioning,20,Task,0.0469
+PRC-0921,3.9 Procurement - BOP,Water treatment & demin plant - supply,Mechanical,Procurement,240,Task,1.0314
+CON-0921,4.9 Construction - BOP,Water treatment plant construction,Mechanical,Construction,150,Task,0.6564
+COM-0921,5.9 Commissioning - BOP,Water treatment plant commissioning,Mechanical,Commissioning,30,Task,0.0938
+CON-0931,4.9 Construction - BOP,Cooling water intake & outfall civil works,Civil,Construction,270,Task,2.0628
+PRC-0931,3.9 Procurement - BOP,Cooling water pumps & screens - supply,Mechanical,Procurement,300,Task,1.1252
+CON-0932,4.9 Construction - BOP,Cooling water pumps & piping installation,Mechanical,Construction,120,Task,0.8439
+COM-0931,5.9 Commissioning - BOP,Cooling water system commissioning,Mechanical,Commissioning,30,Task,0.0938
+CON-0941,4.9 Construction - BOP,Central control building (civil & MEP),Civil,Construction,210,Task,0.9376
+PRC-0941,3.9 Procurement - BOP,DCS & plant control system - supply & FAT,I&C,Procurement,270,Task,1.5002
+CON-0942,4.9 Construction - BOP,DCS installation & power-up,I&C,Construction,60,Task,0.2813
+COM-0941,5.9 Commissioning - BOP,DCS loop checks & software validation,I&C,Commissioning,60,Task,0.1406
+CON-0951,4.9 Construction - BOP,"Admin, workshop & warehouse buildings",Civil,Construction,240,Task,1.1252
+CON-0952,4.9 Construction - BOP,Fire protection system installation,Mechanical,Construction,150,Task,0.5626
+COM-0951,5.9 Commissioning - BOP,Fire protection system commissioning,Mechanical,Commissioning,20,Task,0.0469
+PRC-1001,3.1 Procurement - Block 1,Block 1 - GT package PO award,Mechanical,Procurement,30,Task,0.0469
+PRC-1002,3.1 Procurement - Block 1,Block 1 - HRSG package PO award,Mechanical,Procurement,30,Task,0.0469
+PRC-1003,3.1 Procurement - Block 1,Block 1 - STG package PO award,Mechanical,Procurement,30,Task,0.0469
+PRC-1031,3.1 Procurement - Block 1,STG10 - manufacture & FAT,Mechanical,Procurement,420,Task,4.8755
+PRC-1032,3.1 Procurement - Block 1,STG10 - shipment to site,Mechanical,Procurement,45,Task,0.2344
+PRC-1033,3.1 Procurement - Block 1,STG10 GSU transformer - supply,Electrical,Procurement,330,Task,0.6564
+CON-1031,4.1 Construction - Block 1,STG10 - turbine hall & TG pedestal,Civil,Construction,180,Task,1.3127
+CON-1032,4.1 Construction - Block 1,STG10 - erection & alignment,Mechanical,Construction,150,Task,0.8439
+CON-1033,4.1 Construction - Block 1,STG10 - condenser & auxiliaries,Mechanical,Construction,120,Task,0.5626
+CON-1034,4.1 Construction - Block 1,STG10 GSU transformer install & test,Electrical,Construction,45,Task,0.1406
+CON-1041,4.1 Construction - Block 1,Block 1 - BOP piping erection,Mechanical,Construction,240,Task,1.5002
+CON-1042,4.1 Construction - Block 1,Block 1 - cable pulling & terminations,Electrical,Construction,210,Task,1.2189
+CON-1043,4.1 Construction - Block 1,Block 1 - instrumentation installation,I&C,Construction,150,Task,0.5626
+PRC-1111,3.1 Procurement - Block 1,GT11 - gas turbine manufacture & FAT,Mechanical,Procurement,360,Task,4.3132
+PRC-1112,3.1 Procurement - Block 1,GT11 - shipment & delivery to site,Mechanical,Procurement,45,Task,0.1875
+PRC-1113,3.1 Procurement - Block 1,GT11 GSU transformer - supply,Electrical,Procurement,330,Task,0.6564
+PRC-1121,3.1 Procurement - Block 1,HRSG11 - modules & pressure parts manufacture,Mechanical,Procurement,330,Task,2.9067
+PRC-1122,3.1 Procurement - Block 1,HRSG11 - shipment (modules),Mechanical,Procurement,60,Task,0.3282
+CON-1111,4.1 Construction - Block 1,GT11 - foundation & enclosure base,Civil,Construction,90,Task,0.6564
+CON-1112,4.1 Construction - Block 1,GT11 - set on foundation,Mechanical,Construction,15,Task,0.0938
+CON-1113,4.1 Construction - Block 1,"GT11 - erection, alignment & auxiliaries",Mechanical,Construction,90,Task,0.5626
+CON-1114,4.1 Construction - Block 1,GT11 GSU transformer install & test,Electrical,Construction,45,Task,0.1406
+CON-1121,4.1 Construction - Block 1,HRSG11 - foundation,Civil,Construction,75,Task,0.5157
+CON-1122,4.1 Construction - Block 1,HRSG11 - steel structure & module erection,Mechanical,Construction,180,Task,1.5002
+CON-1123,4.1 Construction - Block 1,HRSG11 - stack erection,Mechanical,Construction,45,Task,0.2813
+CON-1124,4.1 Construction - Block 1,HRSG11 - hydrostatic test,Mechanical,Construction,20,Task,0.0469
+COM-1111,5.1 Commissioning - Block 1,GT11/HRSG11 - pre-commissioning & system checks,Commissioning,Commissioning,45,Task,0.1875
+COM-1112,5.1 Commissioning - Block 1,GT11 - first fire & FSNL,Commissioning,Commissioning,10,Task,0.0938
+COM-1113,5.1 Commissioning - Block 1,GT11 - first synchronisation & load tests,Commissioning,Commissioning,20,Task,0.0938
+COM-1114,5.1 Commissioning - Block 1,HRSG11 - chemical cleaning & steam blow,Commissioning,Commissioning,30,Task,0.1406
+PRC-1211,3.1 Procurement - Block 1,GT12 - gas turbine manufacture & FAT,Mechanical,Procurement,360,Task,4.3132
+PRC-1212,3.1 Procurement - Block 1,GT12 - shipment & delivery to site,Mechanical,Procurement,45,Task,0.1875
+PRC-1213,3.1 Procurement - Block 1,GT12 GSU transformer - supply,Electrical,Procurement,330,Task,0.6564
+PRC-1221,3.1 Procurement - Block 1,HRSG12 - modules & pressure parts manufacture,Mechanical,Procurement,330,Task,2.9067
+PRC-1222,3.1 Procurement - Block 1,HRSG12 - shipment (modules),Mechanical,Procurement,60,Task,0.3282
+CON-1211,4.1 Construction - Block 1,GT12 - foundation & enclosure base,Civil,Construction,90,Task,0.6564
+CON-1212,4.1 Construction - Block 1,GT12 - set on foundation,Mechanical,Construction,15,Task,0.0938
+CON-1213,4.1 Construction - Block 1,"GT12 - erection, alignment & auxiliaries",Mechanical,Construction,90,Task,0.5626
+CON-1214,4.1 Construction - Block 1,GT12 GSU transformer install & test,Electrical,Construction,45,Task,0.1406
+CON-1221,4.1 Construction - Block 1,HRSG12 - foundation,Civil,Construction,75,Task,0.5157
+CON-1222,4.1 Construction - Block 1,HRSG12 - steel structure & module erection,Mechanical,Construction,180,Task,1.5002
+CON-1223,4.1 Construction - Block 1,HRSG12 - stack erection,Mechanical,Construction,45,Task,0.2813
+CON-1224,4.1 Construction - Block 1,HRSG12 - hydrostatic test,Mechanical,Construction,20,Task,0.0469
+COM-1211,5.1 Commissioning - Block 1,GT12/HRSG12 - pre-commissioning & system checks,Commissioning,Commissioning,45,Task,0.1875
+COM-1212,5.1 Commissioning - Block 1,GT12 - first fire & FSNL,Commissioning,Commissioning,10,Task,0.0938
+COM-1213,5.1 Commissioning - Block 1,GT12 - first synchronisation & load tests,Commissioning,Commissioning,20,Task,0.0938
+COM-1214,5.1 Commissioning - Block 1,HRSG12 - chemical cleaning & steam blow,Commissioning,Commissioning,30,Task,0.1406
+COM-1031,5.1 Commissioning - Block 1,STG10 - first roll & synchronisation,Commissioning,Commissioning,20,Task,0.1406
+COM-1032,5.1 Commissioning - Block 1,Block 1 - combined-cycle load tests & tuning,Commissioning,Commissioning,30,Task,0.1875
+COM-1033,5.1 Commissioning - Block 1,Block 1 - performance & reliability run,Commissioning,Commissioning,30,Task,0.1875
+MS-1100,1.0 Milestones,Block 1 Commercial Operation Date (COD),Management,Milestone,0,Milestone,0.0
+PRC-2001,3.2 Procurement - Block 2,Block 2 - GT package PO award,Mechanical,Procurement,30,Task,0.0469
+PRC-2002,3.2 Procurement - Block 2,Block 2 - HRSG package PO award,Mechanical,Procurement,30,Task,0.0469
+PRC-2003,3.2 Procurement - Block 2,Block 2 - STG package PO award,Mechanical,Procurement,30,Task,0.0469
+PRC-2031,3.2 Procurement - Block 2,STG20 - manufacture & FAT,Mechanical,Procurement,420,Task,4.8758
+PRC-2032,3.2 Procurement - Block 2,STG20 - shipment to site,Mechanical,Procurement,45,Task,0.2344
+PRC-2033,3.2 Procurement - Block 2,STG20 GSU transformer - supply,Electrical,Procurement,330,Task,0.6564
+CON-2031,4.2 Construction - Block 2,STG20 - turbine hall & TG pedestal,Civil,Construction,180,Task,1.3127
+CON-2032,4.2 Construction - Block 2,STG20 - erection & alignment,Mechanical,Construction,150,Task,0.8439
+CON-2033,4.2 Construction - Block 2,STG20 - condenser & auxiliaries,Mechanical,Construction,120,Task,0.5626
+CON-2034,4.2 Construction - Block 2,STG20 GSU transformer install & test,Electrical,Construction,45,Task,0.1406
+CON-2041,4.2 Construction - Block 2,Block 2 - BOP piping erection,Mechanical,Construction,240,Task,1.5002
+CON-2042,4.2 Construction - Block 2,Block 2 - cable pulling & terminations,Electrical,Construction,210,Task,1.2189
+CON-2043,4.2 Construction - Block 2,Block 2 - instrumentation installation,I&C,Construction,150,Task,0.5626
+PRC-2111,3.2 Procurement - Block 2,GT21 - gas turbine manufacture & FAT,Mechanical,Procurement,360,Task,4.3132
+PRC-2112,3.2 Procurement - Block 2,GT21 - shipment & delivery to site,Mechanical,Procurement,45,Task,0.1875
+PRC-2113,3.2 Procurement - Block 2,GT21 GSU transformer - supply,Electrical,Procurement,330,Task,0.6564
+PRC-2121,3.2 Procurement - Block 2,HRSG21 - modules & pressure parts manufacture,Mechanical,Procurement,330,Task,2.9067
+PRC-2122,3.2 Procurement - Block 2,HRSG21 - shipment (modules),Mechanical,Procurement,60,Task,0.3282
+CON-2111,4.2 Construction - Block 2,GT21 - foundation & enclosure base,Civil,Construction,90,Task,0.6564
+CON-2112,4.2 Construction - Block 2,GT21 - set on foundation,Mechanical,Construction,15,Task,0.0938
+CON-2113,4.2 Construction - Block 2,"GT21 - erection, alignment & auxiliaries",Mechanical,Construction,90,Task,0.5626
+CON-2114,4.2 Construction - Block 2,GT21 GSU transformer install & test,Electrical,Construction,45,Task,0.1406
+CON-2121,4.2 Construction - Block 2,HRSG21 - foundation,Civil,Construction,75,Task,0.5157
+CON-2122,4.2 Construction - Block 2,HRSG21 - steel structure & module erection,Mechanical,Construction,180,Task,1.5002
+CON-2123,4.2 Construction - Block 2,HRSG21 - stack erection,Mechanical,Construction,45,Task,0.2813
+CON-2124,4.2 Construction - Block 2,HRSG21 - hydrostatic test,Mechanical,Construction,20,Task,0.0469
+COM-2111,5.2 Commissioning - Block 2,GT21/HRSG21 - pre-commissioning & system checks,Commissioning,Commissioning,45,Task,0.1875
+COM-2112,5.2 Commissioning - Block 2,GT21 - first fire & FSNL,Commissioning,Commissioning,10,Task,0.0938
+COM-2113,5.2 Commissioning - Block 2,GT21 - first synchronisation & load tests,Commissioning,Commissioning,20,Task,0.0938
+COM-2114,5.2 Commissioning - Block 2,HRSG21 - chemical cleaning & steam blow,Commissioning,Commissioning,30,Task,0.1406
+PRC-2211,3.2 Procurement - Block 2,GT22 - gas turbine manufacture & FAT,Mechanical,Procurement,360,Task,4.3132
+PRC-2212,3.2 Procurement - Block 2,GT22 - shipment & delivery to site,Mechanical,Procurement,45,Task,0.1875
+PRC-2213,3.2 Procurement - Block 2,GT22 GSU transformer - supply,Electrical,Procurement,330,Task,0.6564
+PRC-2221,3.2 Procurement - Block 2,HRSG22 - modules & pressure parts manufacture,Mechanical,Procurement,330,Task,2.9067
+PRC-2222,3.2 Procurement - Block 2,HRSG22 - shipment (modules),Mechanical,Procurement,60,Task,0.3282
+CON-2211,4.2 Construction - Block 2,GT22 - foundation & enclosure base,Civil,Construction,90,Task,0.6564
+CON-2212,4.2 Construction - Block 2,GT22 - set on foundation,Mechanical,Construction,15,Task,0.0938
+CON-2213,4.2 Construction - Block 2,"GT22 - erection, alignment & auxiliaries",Mechanical,Construction,90,Task,0.5626
+CON-2214,4.2 Construction - Block 2,GT22 GSU transformer install & test,Electrical,Construction,45,Task,0.1406
+CON-2221,4.2 Construction - Block 2,HRSG22 - foundation,Civil,Construction,75,Task,0.5157
+CON-2222,4.2 Construction - Block 2,HRSG22 - steel structure & module erection,Mechanical,Construction,180,Task,1.5002
+CON-2223,4.2 Construction - Block 2,HRSG22 - stack erection,Mechanical,Construction,45,Task,0.2813
+CON-2224,4.2 Construction - Block 2,HRSG22 - hydrostatic test,Mechanical,Construction,20,Task,0.0469
+COM-2211,5.2 Commissioning - Block 2,GT22/HRSG22 - pre-commissioning & system checks,Commissioning,Commissioning,45,Task,0.1875
+COM-2212,5.2 Commissioning - Block 2,GT22 - first fire & FSNL,Commissioning,Commissioning,10,Task,0.0938
+COM-2213,5.2 Commissioning - Block 2,GT22 - first synchronisation & load tests,Commissioning,Commissioning,20,Task,0.0938
+COM-2214,5.2 Commissioning - Block 2,HRSG22 - chemical cleaning & steam blow,Commissioning,Commissioning,30,Task,0.1406
+COM-2031,5.2 Commissioning - Block 2,STG20 - first roll & synchronisation,Commissioning,Commissioning,20,Task,0.1406
+COM-2032,5.2 Commissioning - Block 2,Block 2 - combined-cycle load tests & tuning,Commissioning,Commissioning,30,Task,0.1875
+COM-2033,5.2 Commissioning - Block 2,Block 2 - performance & reliability run,Commissioning,Commissioning,30,Task,0.1875
+MS-2100,1.0 Milestones,Block 2 Commercial Operation Date (COD),Management,Milestone,0,Milestone,0.0
+MS-9999,1.0 Milestones,Project completion / plant COD,Management,Milestone,0,Milestone,0.0
