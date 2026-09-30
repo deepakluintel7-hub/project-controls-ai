@@ -1,0 +1,48 @@
+activity_id,activity_name,discipline,early_finish,forecast_finish,finish_variance_days,total_float,forecast_total_float,float_lost_days,status
+PRC-2221,HRSG22 - modules & pressure parts manufacture,Mechanical,615,650,35,0,-35,35,DRIVING DELAY (negative float)
+CON-2222,HRSG22 - steel structure & module erection,Mechanical,825,860,35,0,-35,35,DRIVING DELAY (negative float)
+CON-2224,HRSG22 - hydrostatic test,Mechanical,845,880,35,0,-35,35,DRIVING DELAY (negative float)
+COM-2211,GT22/HRSG22 - pre-commissioning & system checks,Commissioning,890,925,35,0,-35,35,DRIVING DELAY (negative float)
+COM-2212,GT22 - first fire & FSNL,Commissioning,900,935,35,0,-35,35,DRIVING DELAY (negative float)
+COM-2213,GT22 - first synchronisation & load tests,Commissioning,920,955,35,0,-35,35,DRIVING DELAY (negative float)
+COM-2214,HRSG22 - chemical cleaning & steam blow,Commissioning,950,985,35,0,-35,35,DRIVING DELAY (negative float)
+COM-2031,STG20 - first roll & synchronisation,Commissioning,970,1005,35,0,-35,35,DRIVING DELAY (negative float)
+COM-2032,Block 2 - combined-cycle load tests & tuning,Commissioning,1000,1035,35,0,-35,35,DRIVING DELAY (negative float)
+COM-2033,Block 2 - performance & reliability run,Commissioning,1030,1065,35,0,-35,35,DRIVING DELAY (negative float)
+MS-2100,Block 2 Commercial Operation Date (COD),Management,1030,1065,35,0,-35,35,DRIVING DELAY (negative float)
+PRC-2222,HRSG22 - shipment (modules),Mechanical,675,710,35,30,-5,35,DRIVING DELAY (negative float)
+MS-9999,Project completion / plant COD,Management,1030,1065,35,0,0,0,At risk (<= 30 d float)
+PRC-2111,GT21 - gas turbine manufacture & FAT,Mechanical,585,660,75,110,35,75,Absorbed by float
+PRC-2112,GT21 - shipment & delivery to site,Mechanical,630,705,75,110,35,75,Absorbed by float
+CON-2112,GT21 - set on foundation,Mechanical,645,720,75,110,35,75,Absorbed by float
+CON-2113,"GT21 - erection, alignment & auxiliaries",Mechanical,735,810,75,110,35,75,Absorbed by float
+COM-2111,GT21/HRSG21 - pre-commissioning & system checks,Commissioning,845,855,10,45,35,10,Absorbed by float
+COM-2112,GT21 - first fire & FSNL,Commissioning,855,865,10,45,35,10,Absorbed by float
+COM-2113,GT21 - first synchronisation & load tests,Commissioning,875,885,10,45,35,10,Absorbed by float
+COM-2114,HRSG21 - chemical cleaning & steam blow,Commissioning,905,915,10,45,35,10,Absorbed by float
+CON-2223,HRSG22 - stack erection,Mechanical,780,815,35,140,105,35,Absorbed by float
+PRC-0902,400 kV GIS - manufacture & FAT,Electrical,435,465,30,170,140,30,Absorbed by float
+PRC-0903,400 kV GIS - shipment to site,Electrical,480,510,30,170,140,30,Absorbed by float
+CON-0902,GIS erection & HV testing,Electrical,570,600,30,170,140,30,Absorbed by float
+COM-0901,Switchyard energisation / backfeed power,Electrical,585,615,30,170,140,30,Absorbed by float
+CON-0941,Central control building (civil & MEP),Civil,405,447,42,230,188,42,Absorbed by float
+CON-0942,DCS installation & power-up,I&C,465,507,42,230,188,42,Absorbed by float
+COM-0941,DCS loop checks & software validation,I&C,525,567,42,230,188,42,Absorbed by float
+CON-1221,HRSG12 - foundation,Civil,315,330,15,240,225,15,Absorbed by float
+CON-2221,HRSG22 - foundation,Civil,405,420,15,240,225,15,Absorbed by float
+CON-0931,Cooling water intake & outfall civil works,Civil,465,519,54,305,251,54,Absorbed by float
+ENG-0003,Environmental & construction permits,Management,180,225,45,300,267,33,Absorbed by float
+CON-0002,"Site grading, drainage & roads",Civil,180,198,18,300,267,33,Absorbed by float
+CON-1121,HRSG11 - foundation,Civil,270,288,18,285,267,18,Absorbed by float
+CON-0001,Site mobilisation & temporary facilities,Civil,120,132,12,300,267,33,Absorbed by float
+CON-1031,STG10 - turbine hall & TG pedestal,Civil,375,411,36,305,269,36,Absorbed by float
+CON-2031,STG20 - turbine hall & TG pedestal,Civil,465,501,36,305,269,36,Absorbed by float
+CON-2121,HRSG21 - foundation,Civil,360,375,15,285,270,15,Absorbed by float
+CON-0901,Switchyard civil works & GIS building,Civil,345,375,30,305,275,30,Absorbed by float
+CON-1211,GT12 - foundation & enclosure base,Civil,330,348,18,320,302,18,Absorbed by float
+CON-2211,GT22 - foundation & enclosure base,Civil,420,438,18,320,302,18,Absorbed by float
+CON-1111,GT11 - foundation & enclosure base,Civil,285,306,21,365,344,21,Absorbed by float
+CON-2111,GT21 - foundation & enclosure base,Civil,375,393,18,365,347,18,Absorbed by float
+CON-0951,"Admin, workshop & warehouse buildings",Civil,480,546,66,550,519,31,Absorbed by float
+CON-0952,Fire protection system installation,Mechanical,450,468,18,560,577,-17,Absorbed by float
+COM-0951,Fire protection system commissioning,Mechanical,470,488,18,560,577,-17,Absorbed by float
