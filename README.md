@@ -1,53 +1,63 @@
-# AI-Powered Project Controls & Schedule Recovery
+# Project Controls AI
 
-## Overview
-Advanced machine learning framework for predicting and mitigating schedule delays and cost overruns in complex EPC projects.
+**AI-assisted schedule and cost analytics for EPC power projects**
 
-### What This Does
-- **Schedule Forecasting**: Predicts project completion date based on activity progress, resources, and historical patterns
-- **Cost Variance Analysis**: Decomposes cost variance into price, quantity, and timing components
-- **Recovery Scenario Modeling**: Generates optimistic/realistic/pessimistic scenarios with quantified impact
-- **Risk Prediction**: Identifies high-risk activities before delays cascade
-
-### Why It Matters
-Traditional project management relies on point estimates. This framework uses AI to:
-- Reduce forecast error by 40-60%
-- Identify delays 2-4 weeks before they impact completion date
-- Quantify cost of recovery options before decisions are made
-- Enable data-driven recovery planning instead of guesswork
-
-### Use Cases
-✅ Mid-project schedule recovery planning  
-✅ Commissioning phase risk management  
-✅ Vendor delay impact analysis  
-✅ Project steering committee reporting  
-✅ Quantitative schedule risk analysis (QSRA)  
-
-### Quick Start
-```python
-from project_controls_ai import ScheduleForecaster
-
-# Load your P6 data
-forecast = ScheduleForecaster(p6_data='your_project.csv')
-
-# Generate 3-scenario analysis
-scenarios = forecast.generate_scenarios()
-
-# Get recommendations
-report = forecast.create_steering_committee_report()
-```
-
-### Technical Stack
-- **Python 3.9+** (Data processing, ML)
-- **Pandas, NumPy** (Data manipulation)
-- **Scikit-learn** (Machine learning models)
-- **Claude API** (Scenario analysis, reasoning)
-- **Plotly** (Interactive visualization)
-
-### About the Author
-[Your name] | Principal Project Manager | 16 years EPC experience | Specialized in P6, EVM, schedule recovery
+This repository explores how data analytics and AI can support traditional project controls:
+critical path analysis, earned value management (EVM), delay analysis and recovery
+scenario planning. It is built by a project controls practitioner, for practitioners.
 
 ---
 
-## Current Status: Framework Documentation (In Development)
-Next: Proof-of-concept on real EPC project data
+## What's inside
+
+| Folder | Contents |
+|---|---|
+| `scripts/` | Python tools. Currently: a synthetic schedule generator with its own CPM engine. |
+| `data/` | A fully synthetic 1,800 MW CCGT Level 3 schedule (139 activities, 223 logic links), cost-loaded as % of BAC, with a Month-10 progress update. |
+| `docs/` | Data dictionary and methodology notes. |
+
+## The sample dataset
+
+A two-block 2-2-1 combined-cycle plant (4 GT, 4 HRSG, 2 STG) plus switchyard, fuel gas,
+water treatment, cooling water and DCS. The Day-300 status update contains a deliberate
+delay story for analysis tools to uncover:
+
+- A 75-day gas turbine manufacturing delay that is **mostly absorbed by float**
+- A 35-day HRSG delay **on the critical path** that moves Block 2 COD by 35 days
+- Reduced civil productivity and discipline-level cost overruns
+- Result at the data date: **SPI 0.96, CPI 0.94**
+
+All data is synthetic. No real project, client, vendor or commercial information is used.
+See [`docs/synthetic_dataset.md`](docs/synthetic_dataset.md) for the full data dictionary.
+
+## Quick start
+
+```bash
+pip install pandas
+python scripts/generate_synthetic_ccgt_schedule.py
+```
+
+The script rebuilds every CSV in `data/`. Edit the `slip`, `civil_productivity` and
+`cost_factor` values to create new delay and cost scenarios.
+
+## Roadmap
+
+- [x] Synthetic cost-loaded CCGT schedule with CPM (FS/SS/FF, lags, contractual milestones)
+- [ ] Cost variance decomposition (price / quantity / timing)
+- [ ] EVM dashboard: SPI, CPI, EAC and TCPI trends
+- [ ] Critical and near-critical path change detection between updates
+- [ ] Recovery scenario generator (optimistic / most likely / pessimistic) using an LLM
+- [ ] Monte Carlo schedule risk analysis (QSRA)
+
+## About
+
+**Deepak Luintel, PMP®** — Project planning and controls professional with 16+ years in
+power generation, energy and heavy-crane EPC projects across China, the UAE, Oman and
+Bahrain. Primavera P6, EVM, forensic delay analysis and QSRA. Focused on applying AI to
+project controls.
+
+[LinkedIn](https://www.linkedin.com/) <!-- replace with your profile URL -->
+
+## License
+
+MIT
