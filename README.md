@@ -44,7 +44,7 @@ The script rebuilds every CSV in `data/`. Edit the `slip`, `civil_productivity` 
 
 - [x] Synthetic cost-loaded CCGT schedule with CPM (FS/SS/FF, lags, contractual milestones)
 - [ ] Cost variance decomposition (price / quantity / timing)
-- [ ] EVM dashboard: SPI, CPI, EAC and TCPI trends
+- [x] EVM dashboard: SPI, CPI, EAC and TCPI trends
 - [ ] Critical and near-critical path change detection between updates
 - [ ] Recovery scenario generator (optimistic / most likely / pessimistic) using an LLM
 - [ ] Monte Carlo schedule risk analysis (QSRA)
@@ -56,7 +56,7 @@ power generation, energy and heavy-crane EPC projects across China, the UAE, Oma
 Bahrain. Primavera P6, EVM, forensic delay analysis and QSRA. Focused on applying AI to
 project controls.
 
-[LinkedIn](https://www.linkedin.com/) <!-- replace with your profile URL -->
+[LinkedIn](https://www.linkedin.com/in/deepak-luintel/)
 
 ## License
 
