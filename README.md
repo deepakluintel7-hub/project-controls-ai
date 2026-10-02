@@ -64,7 +64,7 @@ MIT
 
 ## My Profile
 
-# Hi, I'm [Your Name] 👋
+# Hi, I'm Deepak Luintel 👋
 
 ### PMP® | Project Controls & Planning Professional | AI-Enabled Scheduling Advocate
 
