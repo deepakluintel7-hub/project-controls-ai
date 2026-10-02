@@ -61,3 +61,94 @@ project controls.
 ## License
 
 MIT
+
+## My Profile
+
+# Hi, I'm [Your Name] 👋
+
+### PMP® | Project Controls & Planning Professional | AI-Enabled Scheduling Advocate
+
+I have 16+ years of international experience in **power generation, energy, and heavy crane industries**, delivering complex EPC, commissioning, and industrial projects across **China, UAE, Oman, and Bahrain**. I'm now applying **AI, machine learning, and automation** to modernize how projects are planned, tendered, monitored, and controlled.
+
+---
+
+## 🎯 What I Do
+
+**Project Planning & Scheduling**
+- WBS development, baseline creation, and critical path analysis
+- Schedule updating, schedule recovery, and forensic delay analysis
+- Quantitative Schedule Risk Analysis (QSRA)
+- Tools: Primavera P6, Microsoft Project
+
+**Cost Control & Earned Value Management**
+- Project estimation and cost baselining
+- EVM (CPI, SPI, EAC, ETC) and cost forecasting
+- Change management and variance analysis
+
+**Tendering & Bidding**
+- Tender planning and bid schedule development
+- Bid document review and clarification management
+- Cost estimation support and resource-loaded bid programs
+- Risk and assumptions identification at bid stage
+
+**Document Reconciliation & Contract Controls**
+- Reconciliation of tender documents, addenda, and revisions
+- Scope, BOQ, and specification cross-checking
+- Requirements and scope traceability
+- Claims support and change order documentation
+
+**Project Reporting & Governance**
+- Executive dashboards and progress reporting
+- Stakeholder and requirements management
+- Monitoring, control, and performance reviews
+
+---
+
+## 🤖 AI x Project Controls (What I'm Building)
+
+I believe the future of project management is the convergence of **AI, data analytics, and digital project controls**. My focus areas:
+
+- 📄 **Automated tender/bid document comparison and reconciliation** (detecting changes, gaps, and conflicts between revisions)
+- 📊 **Automated progress and executive reporting**
+- 📈 **ML-based schedule forecasting and delay prediction**
+- ⚠️ **AI-assisted risk identification** from historical project data
+- 👷 **Resource planning optimization**
+- 🔁 **Intelligent automation of P6 / MS Project data workflows**
+
+---
+
+## 🛠️ Tech & Tools
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
+
+**Project Controls:** Primavera P6 • Microsoft Project • EVM • QSRA • Forensic Delay Analysis
+**Learning:** Machine Learning • LLMs & Prompt Engineering • Data Analytics • Automation
+
+---
+
+## 📂 Projects & Repositories
+
+- `schedule-analytics` – Python scripts for analyzing P6/XER schedule data *(in progress)*
+- `evm-dashboard` – Earned value calculations and visualization *(in progress)*
+- `tender-doc-reconciliation` – Compare tender revisions and flag changes using AI *(in progress)*
+- `ai-project-reporting` – Automated progress report generation *(planned)*
+
+---
+
+## 🌍 Languages
+
+English • Mandarin Chinese • Nepali • Hindi • Urdu
+
+---
+
+## 📫 Let's Connect
+
+- 💼 LinkedIn: [LinkedIn](https://www.linkedin.com/in/deepak-luintel/)
+- 📧 Email: luintel.deepak@outlook.com
+
+> *"Bridging traditional project management with next-generation AI to deliver more predictable, efficient, and successful projects."*
+##
